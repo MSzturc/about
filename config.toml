@@ -1,5 +1,5 @@
 title = "Über mich"
-baseURL = "http://example.org/"
+baseURL = "https://mszturc.github.io/about/"
 theme = "hugo-devresume-theme"
 defaultContentLanguage = "de"
 googleAnalytics = "UA-XXXXXXX-Y"
