@@ -1,12 +1,13 @@
 title = "Über mich"
 baseURL = "http://example.org/"
 theme = "hugo-devresume-theme"
+defaultContentLanguage = "de"
+googleAnalytics = "UA-XXXXXXX-Y"
 disableKinds = [
   "taxonomy",
   "taxonomyTerm"
 ]
-googleAnalytics = "UA-XXXXXXX-Y"
-defaultContentLanguage = "de"
+enableRobotsTXT = false
 
 [languages]
 

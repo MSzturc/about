@@ -53,8 +53,19 @@ hugover = "0.69.0"
     tip = "Provide a Google Analitics Tracking Code to enable analytics."
 
   [[singles.fields]]
+    key = "disableKinds"
+    title = "Disable Kinds"
+    type = "leaf-array"
+
+    [singles.fields.field]
+      key = "disableKinds"
+      title = "Item"
+      type = "string"
+
+
+  [[singles.fields]]
     key = "enableRobotsTXT"
     title = "Enable Robots"
     type = "boolean"
-    default = true
+    default = false
     tip = "If you want your page to be indexed, keep this enabled."
