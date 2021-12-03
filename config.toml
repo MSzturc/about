@@ -784,3 +784,6 @@ enableRobotsTXT = false
 
 [params.footer]
     purchased_license = true
+
+[params.translation]
+    enable = false
