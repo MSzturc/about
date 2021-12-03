@@ -3,264 +3,261 @@ baseURL = "https://mszturc.github.io/about/"
 theme = "hugo-devresume-theme"
 defaultContentLanguage = "de"
 googleAnalytics = "UA-XXXXXXX-Y"
-disableKinds = [
-  "taxonomy",
-  "taxonomyTerm"
-]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = false
 
 [languages]
 
-  [languages.de]
-  title = "Über mich"
-  description = "Unternehmer aus Leidenschaft, Servant Leader aus Überzeugung, Agile Coach, Softwarearchitekt & Mediator."
+    [languages.de]
+        title = "Über mich"
+        description = "Unternehmer aus Leidenschaft, Servant Leader aus Überzeugung, Agile Coach, Softwarearchitekt & Mediator."
 
-    [languages.de.params]
+        [languages.de.params]
 
-      [languages.de.params.contact]
-      enable = true
-      location = "Köln"
+            [languages.de.params.contact]
+                enable = true
+                location = "Köln"
 
-        [[languages.de.params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:+491736056707"
-        text = "+49 (0)173 6056 707"
+                [[languages.de.params.contact.list]]
+                    icon = "fas fa-phone-square"
+                    url = "tel:+491736056707"
+                    text = "+49 (0)173 6056 707"
 
-        [[languages.de.params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:matthaeus@lernende-organisation.org"
-        text = "matthaeus@lernende-organisation.org"
+                [[languages.de.params.contact.list]]
+                    icon = "fas fa-envelope-square"
+                    url = "mailto:matthaeus@lernende-organisation.org"
+                    text = "matthaeus@lernende-organisation.org"
 
-        [[languages.de.params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://www.lernende-organisation.org"
-        text = "www.lernende-organisation.org"
+                [[languages.de.params.contact.list]]
+                    icon = "fas fa-globe"
+                    url = "https://www.lernende-organisation.org"
+                    text = "www.lernende-organisation.org"
 
-      [languages.de.params.profile]
-      enable = true
-      name = "Matthäus Szturc"
-      tagline = "Unternehmer, Servant Leader, Agile Coach, Softwarearchitekt & Mediator"
-      avatar = "matt.jpg"
+[languages.de.params.profile]
+    enable = true
+    name = "Matthäus Szturc"
+    tagline = "Unternehmer, Servant Leader, Agile Coach, Softwarearchitekt & Mediator"
+    avatar = "matt.jpg"
 
-      [languages.de.params.summary]
-      enable = true
-      text = "Matthäus hat mehr als zehn Jahre Erfahrung in der Implementierung agiler Kulturen und Systeme in Unternehmen aller Größen und auf allen Unternehmensebenen. Des Weiteren bringt Matthäus 10 Jahre Erfahrung in objektorientierter Softwareentwicklung im Java, Mobile und JavaScript Umfeld mit. Seit Februar 2018 ist Matthäus geschäftsführender Gesellschafter der Agile Process und damit Teil des Teams der Agile Process. Zuletzt war Matthäus als Organisationsentwickler bei der AOK Systems im Einsatz und hat dort gemeinsam mit deren Geschäftsführung eine Strategie zur Implementierung von Agilität in und außerhalb der IT entwickelt."
+[languages.de.params.summary]
+    enable = true
+    text = "Matthäus hat mehr als zehn Jahre Erfahrung in der Implementierung agiler Kulturen und Systeme in Unternehmen aller Größen und auf allen Unternehmensebenen. Des Weiteren bringt Matthäus 10 Jahre Erfahrung in objektorientierter Softwareentwicklung im Java, Mobile und JavaScript Umfeld mit. Seit Februar 2018 ist Matthäus geschäftsführender Gesellschafter der Agile Process und damit Teil des Teams der Agile Process. Zuletzt war Matthäus als Organisationsentwickler bei der AOK Systems im Einsatz und hat dort gemeinsam mit deren Geschäftsführung eine Strategie zur Implementierung von Agilität in und außerhalb der IT entwickelt."
 
-      [languages.de.params.education]
-      enable = true
+[languages.de.params.education]
+    enable = true
 
-        [[languages.de.params.education.list]]
+    [[languages.de.params.education.list]]
         degree = "M. Sc. in Psychologie"
         university = "FernUniversität Hagen"
         dates = "2016 - 2018"
 
-        [[languages.de.params.education.list]]
+    [[languages.de.params.education.list]]
         degree = "B. Sc. in Psychologie"
         university = "FernUniversität Hagen"
         dates = "2012 - 2016"
 
-        [[languages.de.params.education.list]]
+    [[languages.de.params.education.list]]
         degree = "Dipl.-Ing. (FH) für Informatik"
         university = "TH Bingen"
         dates = "2006 - 2009"
 
-      [languages.de.params.languages]
-      enable = true
+[languages.de.params.languages]
+    enable = true
 
-        [[languages.de.params.languages.list]]
+    [[languages.de.params.languages.list]]
         name = "Deutsch"
         level = "Muttersprache"
 
-        [[languages.de.params.languages.list]]
+    [[languages.de.params.languages.list]]
         name = "Englisch"
         level = "Verhandlungssicher"
 
-      [languages.de.params.experience]
-      enable = true
+[languages.de.params.experience]
+    enable = true
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "Gesellschafter / Geschäftsführer Agile Transformation"
         dates = "02/2018 – 12/2021"
         company = "[Agile Process GmbH](https://www.agile-process.com)"
         branch = "Beratung und Consulting"
         details = "Geschäftsführer der Agile Process GmbH mit Fokus auf agiler Transformationsberatung nationalen und internationalen Großunternehmen in folgenden Rollen:"
 
-          [[languages.de.params.experience.list.roles]]
-          title = "Inhaber"
-          details = "Als Geschäftsinhaber leite ich aus den strategischen Anforderungen der Vision und Mission das Organisationsmodell des Unternehmens ab."
-          tasks = [
-            "Warum?, Vision und Mission der Agile Process entwickeln",
-            "Formen der Zusammenarbeit und Vergütung definieren"
-          ]
-          models = [
-            "Holistischer Ansatz",
-            "Kano Modell",
-            "Holokratie",
-            "Engpasskonzentrierte Strategie",
-            "Servant Leadership"
-          ]
-          methods = [
-            "Business Model Canvas",
-            "Strategie und Portfolio Board",
-            "Integrales Psychogramm",
-            "Rollenmatrix"
-          ]
+        [[languages.de.params.experience.list.roles]]
+            title = "Inhaber"
+            details = "Als Geschäftsinhaber leite ich aus den strategischen Anforderungen der Vision und Mission das Organisationsmodell des Unternehmens ab."
+            tasks = [
+                "Warum?, Vision und Mission der Agile Process entwickeln",
+                "Formen der Zusammenarbeit und Vergütung definieren",
+            ]
+            models = [
+                "Holistischer Ansatz",
+                "Kano Modell",
+                "Holokratie",
+                "Engpasskonzentrierte Strategie",
+                "Servant Leadership",
+            ]
+            methods = [
+                "Business Model Canvas",
+                "Strategie und Portfolio Board",
+                "Integrales Psychogramm",
+                "Rollenmatrix",
+            ]
 
-          [[languages.de.params.experience.list.roles]]
-          title = "Unternehmensstratege"
-          details = "Als Unternehmensstratege stelle ich sicher, dass unsere Kunden die richtigen Geschäftsmodelle und die erfolgversprechendsten Strategien verfolgen. Meine Aufgaben sind:"
-          tasks = [
-            "Geschäftsideen auf Wirtschaftlichkeit prüfen",
-            "Markt- und Kundenpotenziale in Geschäftsmodelle überführen",
-            "Unternehmens- und Bereichsstrategien kollaborativ erarbeiten"
-          ]
-          models = [
-            "Integraler Ansatz",
-            "Lean Startup",
-            "Blue Ocean Strategie",
-            "Engpasskonzentrierte Strategie",
-            "3-Horizonte-Modell"
-          ]
-          methods = [
-            "Porter Wertschöpfungskette",
-            "Business Model Canvas",
-            "Strategie Blueprint",
-            "Business Plan Analyse"
-          ]
+        [[languages.de.params.experience.list.roles]]
+            title = "Unternehmensstratege"
+            details = "Als Unternehmensstratege stelle ich sicher, dass unsere Kunden die richtigen Geschäftsmodelle und die erfolgversprechendsten Strategien verfolgen. Meine Aufgaben sind:"
+            tasks = [
+                "Geschäftsideen auf Wirtschaftlichkeit prüfen",
+                "Markt- und Kundenpotenziale in Geschäftsmodelle überführen",
+                "Unternehmens- und Bereichsstrategien kollaborativ erarbeiten",
+            ]
+            models = [
+                "Integraler Ansatz",
+                "Lean Startup",
+                "Blue Ocean Strategie",
+                "Engpasskonzentrierte Strategie",
+                "3-Horizonte-Modell",
+            ]
+            methods = [
+                "Porter Wertschöpfungskette",
+                "Business Model Canvas",
+                "Strategie Blueprint",
+                "Business Plan Analyse",
+            ]
 
-          [[languages.de.params.experience.list.roles]]
-          title = "Organisationsentwickler"
-          details = "Als Organisationsentwickler entwickele ich Organisationsmodelle und schafft die strukturellen sowie strategischen Rahmenbedingungen für eine erfolgreiche agile Transformation."
-          tasks = [
-            "Ist-Zustand zu Kultur, Managementverhalten und Teamarbeit analysieren",
-            "Adaptive Strategie und Change-Prozesse entwickeln"
-          ]
-          models = [
-            "Systems Thinking",
-            "Spiral Dynamics",
-            "Holokratie",
-            "Flight Levels, LeSS",
-            "Scrum, Kanban"
-          ]
-          methods = [
-            "Integrales Psychogramm",
-            "Objectives and Key Results",
-            "Delegationsmatrix",
-            "Rollenmatrix"
-          ]
+        [[languages.de.params.experience.list.roles]]
+            title = "Organisationsentwickler"
+            details = "Als Organisationsentwickler entwickele ich Organisationsmodelle und schafft die strukturellen sowie strategischen Rahmenbedingungen für eine erfolgreiche agile Transformation."
+            tasks = [
+                "Ist-Zustand zu Kultur, Managementverhalten und Teamarbeit analysieren",
+                "Adaptive Strategie und Change-Prozesse entwickeln",
+            ]
+            models = [
+                "Systems Thinking",
+                "Spiral Dynamics",
+                "Holokratie",
+                "Flight Levels, LeSS",
+                "Scrum, Kanban",
+            ]
+            methods = [
+                "Integrales Psychogramm",
+                "Objectives and Key Results",
+                "Delegationsmatrix",
+                "Rollenmatrix",
+            ]
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "Leiter Competence Center"
         dates = "11/2015 – 02/2018"
         company = "[adesso AG](http://www.adesso.de)"
         branch = "Beratung und Consulting"
         details = "Bereichsleitung des Competence Center Agility mit disziplinarischer Verantwortung für über 50 Mitarbeiter und dem Fokus auf Beratung zum Thema Agilität, Digitalisierung und Transformation in folgenden Rollen:"
 
-          [[languages.de.params.experience.list.roles]]
-          title = "Competence Center Leiter"
-          details = "Als Competence Center Leiter ist es meine Aufgabe den Wachstumspfad des Unternehmens durch Einstellung, Weiterentwicklung und Bindung der Mitarbeitenden umzusetzen. Dabei bewahre ich den Blick für den wirtschaftlichen, deckungsbeitragsorientierten Erfolg des Competence Centers im Rahmen des Geschäftsmodells."
+        [[languages.de.params.experience.list.roles]]
+            title = "Competence Center Leiter"
+            details = "Als Competence Center Leiter ist es meine Aufgabe den Wachstumspfad des Unternehmens durch Einstellung, Weiterentwicklung und Bindung der Mitarbeitenden umzusetzen. Dabei bewahre ich den Blick für den wirtschaftlichen, deckungsbeitragsorientierten Erfolg des Competence Centers im Rahmen des Geschäftsmodells."
 
-          [[languages.de.params.experience.list.roles]]
-          title = "Projekt- / Programmleitung"
-          details = "Als Projektleiter trage ich die Gesamtverantwortung für die erfolgreiche Umsetzung von Transformationsprojekten, übernehme die Projektkommunikation und Koordination und berichte Status und Fortschritt auf GF / Vorstands Ebene."
+        [[languages.de.params.experience.list.roles]]
+            title = "Projekt- / Programmleitung"
+            details = "Als Projektleiter trage ich die Gesamtverantwortung für die erfolgreiche Umsetzung von Transformationsprojekten, übernehme die Projektkommunikation und Koordination und berichte Status und Fortschritt auf GF / Vorstands Ebene."
 
-          [[languages.de.params.experience.list.roles]]
-          title = "Managing Consultant"
-          details = "Als Managing Consultant berate ich nationalen und internationalen Großunternehmen zum Thema Agilität, Digitalisierung und Transformation. Dabei liegt mein Fokus auf der Erkennung von Engpässen und der Formulierung von optimalen Lösungsempfehlungen unter gegeben Rahmenbedingungen."
+        [[languages.de.params.experience.list.roles]]
+            title = "Managing Consultant"
+            details = "Als Managing Consultant berate ich nationalen und internationalen Großunternehmen zum Thema Agilität, Digitalisierung und Transformation. Dabei liegt mein Fokus auf der Erkennung von Engpässen und der Formulierung von optimalen Lösungsempfehlungen unter gegeben Rahmenbedingungen."
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "Teamleiter JavaEE"
         dates = "05/2013 - 10/2015"
         company = "[Mettler-Toledo Pharmacontrol Electronic GmbH](https://www.mt.com/)"
         branch = "Pharma"
         details = "Leitung der Software Entwicklung bei einem mittelständigen Softwarehaus mit Fokus auf Pharma-Lösungen & Produkte mit folgenden Aufgaben:"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Einführung von Scrum in der Softwareentwicklung"
+        [[languages.de.params.experience.list.items]]
+            details = "Einführung von Scrum in der Softwareentwicklung"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Product Owner für eine auf JavaEE7 basierende MES Software: \n - Erstellung der Produktroadmap \n - Konzeption von Produktfeatures \n - Definition von Arbeitspaketen\n - Abnahme von fertiger Software"
+        [[languages.de.params.experience.list.items]]
+            details = "Product Owner für eine auf JavaEE7 basierende MES Software: \n - Erstellung der Produktroadmap \n - Konzeption von Produktfeatures \n - Definition von Arbeitspaketen\n - Abnahme von fertiger Software"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Analyse von Kundensystemen & Erstellung von Konzepten zur Integration in Mettler Toledo Systemlandschaft."
+        [[languages.de.params.experience.list.items]]
+            details = "Analyse von Kundensystemen & Erstellung von Konzepten zur Integration in Mettler Toledo Systemlandschaft."
 
-          [[languages.de.params.experience.list.items]]
-          details = "Definition, Erweiterung & Automatisierung des Entwicklungsprozesses:  \n - Einführung von Continuous Integration mittels Jenkins CI Server \n - Ablösung von manuellen Systemtests durch automatisierte Funktionstests auf Basis von Arquillian, Selenium und Graphene"
+        [[languages.de.params.experience.list.items]]
+            details = "Definition, Erweiterung & Automatisierung des Entwicklungsprozesses:  \n - Einführung von Continuous Integration mittels Jenkins CI Server \n - Ablösung von manuellen Systemtests durch automatisierte Funktionstests auf Basis von Arquillian, Selenium und Graphene"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Entwicklung von MT Cloud, einer GAMP5 zertifizierten PAAS Cloud Hosting Solution auf Basis von ESX &amp; Docker"
+        [[languages.de.params.experience.list.items]]
+            details = "Entwicklung von MT Cloud, einer GAMP5 zertifizierten PAAS Cloud Hosting Solution auf Basis von ESX &amp; Docker"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Disziplinarische Verantwortung für 16 Mitarbeiter"
+        [[languages.de.params.experience.list.items]]
+            details = "Disziplinarische Verantwortung für 16 Mitarbeiter"
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "Softwarearchitekt Java"
         dates = "12/2010 - 04/2013"
         company = "[Grass GmbH](https://www.grass-gmbh.de/)"
         branch = "Rollenfertigung"
         details = "Technische Projektleitung, Anforderungsanalyse sowie Entwicklung von IT-Strategien für mittlere und große Unternehmen."
 
-          [[languages.de.params.experience.list.items]]
-          details = "Eigenverantwortliche Durchführung und Leitung von Entwicklungsprojekten in Projektteams von 4 bis 6 Mitarbeitern."
+        [[languages.de.params.experience.list.items]]
+            details = "Eigenverantwortliche Durchführung und Leitung von Entwicklungsprojekten in Projektteams von 4 bis 6 Mitarbeitern."
 
-          [[languages.de.params.experience.list.items]]
-          details = "Einführung von Scrum als Vorgehensmodell für Entwicklungsprojekte"
+        [[languages.de.params.experience.list.items]]
+            details = "Einführung von Scrum als Vorgehensmodell für Entwicklungsprojekte"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Durchführung von Code-, Design- und Projektreviews in unterschiedlichen Entwicklungsprojekten."
+        [[languages.de.params.experience.list.items]]
+            details = "Durchführung von Code-, Design- und Projektreviews in unterschiedlichen Entwicklungsprojekten."
 
-          [[languages.de.params.experience.list.items]]
-          details = "Optimierung des Entwicklungsprozesses & kontinuierliche Erweiterung der Systemarchitektur"
+        [[languages.de.params.experience.list.items]]
+            details = "Optimierung des Entwicklungsprozesses & kontinuierliche Erweiterung der Systemarchitektur"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Durchführung von Schulungsmaßnahmen (intern & extern)"
+        [[languages.de.params.experience.list.items]]
+            details = "Durchführung von Schulungsmaßnahmen (intern & extern)"
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "IT-Consultant"
         dates = "05/2010 - 11/2010"
         company = "[Caritasverband Mainz e. V.](https://www.caritas-mainz.de/)"
         branch = "Gesundheit"
         details = "Integration des neuen Krankenhausinformationssystems Orbis in bestehende IT Systemlandschaft, Anbindung der Dokumentendatenbank Radiologie an neues KIS, Maschinenanbindung diverser Messgeräten an neues KIS, Planung, Koordination & Begleitung von Go-live Maßnahmen."
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "IT-Consultant"
         dates = "07/2009 - 04/2010"
         company = "renommierter Hersteller für Fernsehgeräte"
         branch = "Rundfunk und Fernsehen"
         details = "Entwicklung einer Lösung, um Videoinhalte verschiedener Internet-Plattformen auf dem Fernseher wiederzugeben."
 
-          [[languages.de.params.experience.list.items]]
-          details = "Anforderungsanalyse, Spezifikation und Konzeption nach arc42"
+        [[languages.de.params.experience.list.items]]
+            details = "Anforderungsanalyse, Spezifikation und Konzeption nach arc42"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Definition & Planung von Milestones"
+        [[languages.de.params.experience.list.items]]
+            details = "Definition & Planung von Milestones"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Entwurf und Implementierung eines PoC"
+        [[languages.de.params.experience.list.items]]
+            details = "Entwurf und Implementierung eines PoC"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Umsetzung des Konzeptes"
+        [[languages.de.params.experience.list.items]]
+            details = "Umsetzung des Konzeptes"
 
-        [[languages.de.params.experience.list]]
+    [[languages.de.params.experience.list]]
         title = "Softwareentwickler"
         dates = "02/2005 - 06/2009"
         company = "mittelständigen Unternehmen mit Sitz in Mainz"
         branch = "Mess- und Regeltechnik"
         details = "Entwicklung eines BDE Systems für die Serialisierung und Kalibrierung von Messsonden"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Konzeption und Entwicklung einer Individuallösung zur Erfassung von Betriebsdaten"
+        [[languages.de.params.experience.list.items]]
+            details = "Konzeption und Entwicklung einer Individuallösung zur Erfassung von Betriebsdaten"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Optimierung und Automatisierung von Prozessabläufen"
+        [[languages.de.params.experience.list.items]]
+            details = "Optimierung und Automatisierung von Prozessabläufen"
 
-          [[languages.de.params.experience.list.items]]
-          details = "Schulung und Support"
+        [[languages.de.params.experience.list.items]]
+            details = "Schulung und Support"
 
-      [languages.de.params.projects]
-      enable = true
+[languages.de.params.projects]
+    enable = true
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         dates = "01/2020 – 12/2021"
         title = "Umsetzung des agilen Organisationsmodells einer gesetzlichen Krankenversicherung im Rahmen der agilen Transition"
         branch = "Versicherungen"
@@ -272,7 +269,7 @@ enableRobotsTXT = false
         details = "Im Rahmen des Future4AS Projektes war es unsere Aufgabe, die Bereichsleitung bei der Umsetzung der Strategie zu beraten. In Open Spaces konnten wir kollaborativ mit den Teams taktische Maßnahmen erarbeiten, die für die Umsetzung der Strategie notwendig waren. Als Agile Coaches haben wir dabei unterstützt, die Veränderungen in der Ablauforganisation zu implementieren, interne Agile Coaches auszubilden, sowie bereichsübergreifende strukturelle Änderungen herbeizuführen, die notwendig für ein reibungsloses Zusammenarbeiten waren. Im Laufe unserer Zusammenarbeit konnten wir die Bereiche Mitgliederbestand, Business Partner, Krankenhaus I + II und Reha auf Ihrem zu agilen Arbeiten unterstützen."
         language = "Deutsch"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         dates = "08/2019 – 12/2019"
         title = "Entwicklung der Unternehmensstrategie für die Neuausrichtung einer gesetzlichen Krankenversicherung"
         branch = "Versicherungen"
@@ -284,7 +281,7 @@ enableRobotsTXT = false
         details = "Im Rahmen der Neuausrichtung der AOK Systems war es unsere Aufgabe zum Thema Kulturwandel & Agilität zu beraten. In Workshops und Impulsvorträgen konnten wir die Geschäftsführung davon überzeugen, dass eine agile Organisationsform auch für die AOK Systems ein erfolgversprechendes Arbeitsmodell darstellt. In Open Spaces mit dem Topmanagement konnten wir kollaborativ eine Unternehmensstrategie erarbeiten, auf deren Basis das Design für das zukünftige Organisationsmodell beruhen sollte. Aus der Strategie konnten wir ein Entwurf für Aufbau- und Ablauforganisation entwickeln, sowie einen Entwurf für eine Kolaborationsorganisation zwischen der AOK Systems und den 11 AOK Landesverbänden."
         language = "Deutsch"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         dates = "03/2019 – 12/2019"
         title = "Unterstützung eines Versicherungskonzerns bei der agilen Transition"
         branch = "Versicherungen"
@@ -295,19 +292,19 @@ enableRobotsTXT = false
         tools = "analoge Boards, Strategie- und Portfolio Mapping, Führungsmonitor, Retrospektiven"
         language = "Deutsch"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Strategische Beratung über die Aufstellung der IT bis 2022"
+        [[languages.de.params.projects.list.items]]
+            details = "Strategische Beratung über die Aufstellung der IT bis 2022"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching des Vorstands, sowie in der ersten Führungsriege"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching des Vorstands, sowie in der ersten Führungsriege"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Implementierung eines strategischen und taktischen Backlogs zur Steuerung der Portfolioentwicklung"
+        [[languages.de.params.projects.list.items]]
+            details = "Implementierung eines strategischen und taktischen Backlogs zur Steuerung der Portfolioentwicklung"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Moderation & Koordination von Big Room Plannings mit über 50 Teilnehmern"
+        [[languages.de.params.projects.list.items]]
+            details = "Moderation & Koordination von Big Room Plannings mit über 50 Teilnehmern"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Unternehmensstratege / Agile Coach"
         dates = "08/2018 – 12/2018"
         company = "[Gothaer VVaG](https://www.gothaer.de/)"
@@ -319,19 +316,19 @@ enableRobotsTXT = false
         title = "Ist-Stand Analyse des agilen Organisationsmodells eines Versicherungskonzerns"
         details = "Nach Abschluss des ersten Meilensteins in der Transition des Konzerns in Richtung agile Organisation wurden wir beauftragt, ein Audit, über den Grad der Agilität, durchzuführen. Unser Bericht umfasste folgende Themengebiete:"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Maturity Check zu Kultur, Managementverhalten und Teamarbeit"
+        [[languages.de.params.projects.list.items]]
+            details = "Maturity Check zu Kultur, Managementverhalten und Teamarbeit"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Analyse der Wertschöpfungskette aus erlebten Arbeitsprozess"
+        [[languages.de.params.projects.list.items]]
+            details = "Analyse der Wertschöpfungskette aus erlebten Arbeitsprozess"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Potenziale in Organisationsmodell sichtbar machen"
+        [[languages.de.params.projects.list.items]]
+            details = "Potenziale in Organisationsmodell sichtbar machen"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Empfehlung: Nächste Veränderungsschritte"
+        [[languages.de.params.projects.list.items]]
+            details = "Empfehlung: Nächste Veränderungsschritte"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Agile Coach"
         dates = "02/2018 – 08/2018"
         company = "[AXA Konzern AG](https://www.axa.de/)"
@@ -343,19 +340,19 @@ enableRobotsTXT = false
         language = "Deutsch, Englisch"
         details = "Im Zuge der agilen Transition wurden wir damit beauftragt den Bereich Customer Care bei der Umsetzung des agilen Organisationsmodells zu unterstützen."
 
-          [[languages.de.params.projects.list.items]]
-          details = "Einführung von Scrum in Teams außerhalb der IT"
+        [[languages.de.params.projects.list.items]]
+            details = "Einführung von Scrum in Teams außerhalb der IT"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Erarbeiten von teamübergreifenden Skalierungs- und Zusammenarbeitsmethoden"
+        [[languages.de.params.projects.list.items]]
+            details = "Erarbeiten von teamübergreifenden Skalierungs- und Zusammenarbeitsmethoden"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching von Management und Mitarbeitern (ca. 55 Mitarbeiter)"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching von Management und Mitarbeitern (ca. 55 Mitarbeiter)"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Ausbildung und Coaching von 3 Scrum Mastern und 6 Product Ownern"
+        [[languages.de.params.projects.list.items]]
+            details = "Ausbildung und Coaching von 3 Scrum Mastern und 6 Product Ownern"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Agile Coach"
         dates = "10/2017 – 04/2018"
         company = "[AXA Konzern AG](https://www.axa.de/)"
@@ -367,19 +364,19 @@ enableRobotsTXT = false
         language = "Deutsch, Englisch"
         details = "Im Zuge der agilen Transition wurden wir damit beauftragt den Bereich Direktvertrieb bei der Umsetzung des agilen Organisationsmodells zu unterstützen."
 
-          [[languages.de.params.projects.list.items]]
-          details = "Einführung von Kanban in einer komplex/chaotischen Umgebung"
+        [[languages.de.params.projects.list.items]]
+            details = "Einführung von Kanban in einer komplex/chaotischen Umgebung"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Erarbeiten von teamübergreifenden Skalierungs- und Zusammenarbeitsmethoden"
+        [[languages.de.params.projects.list.items]]
+            details = "Erarbeiten von teamübergreifenden Skalierungs- und Zusammenarbeitsmethoden"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching von Management und Mitarbeitern (ca. 75 Mitarbeiter)"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching von Management und Mitarbeitern (ca. 75 Mitarbeiter)"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Ausbildung und Coaching von 4 Flow Managern und 6 Service Managern"
+        [[languages.de.params.projects.list.items]]
+            details = "Ausbildung und Coaching von 4 Flow Managern und 6 Service Managern"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Organisationsentwickler"
         dates = "09/2017 – 08/2018"
         company = "[AXA Konzern AG](https://www.axa.de/)"
@@ -391,22 +388,22 @@ enableRobotsTXT = false
         title = "Unterstützung eines Versicherungskonzerns bei der agilen Transition"
         details = "Als Teil des agilen Transitionsteams schufen wir die strukturellen sowie strategischen Rahmenbedingungen für  die Implementierung von agilen Prozessen in der Organisation"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Methodische Unterstützung zum Aufbau von Transitions- und Kommunikationsbacklogs"
+        [[languages.de.params.projects.list.items]]
+            details = "Methodische Unterstützung zum Aufbau von Transitions- und Kommunikationsbacklogs"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching des Product Owners der Transition"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching des Product Owners der Transition"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching der Teammitglieder im Rahmen des Sprint Planning, der Standups und Review und Retrospektiven sowie in der individuellen Arbeit"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching der Teammitglieder im Rahmen des Sprint Planning, der Standups und Review und Retrospektiven sowie in der individuellen Arbeit"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Schärfung der Mission des Transitionsteams und wesentlichen Stakeholder"
+        [[languages.de.params.projects.list.items]]
+            details = "Schärfung der Mission des Transitionsteams und wesentlichen Stakeholder"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Unterstützung bei der Ermittlung von Skalierungsbedarfen sowie der Entwicklung eines AXA-angepassten Skalierungsmodells basierend auf Flight Levels"
+        [[languages.de.params.projects.list.items]]
+            details = "Unterstützung bei der Ermittlung von Skalierungsbedarfen sowie der Entwicklung eines AXA-angepassten Skalierungsmodells basierend auf Flight Levels"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Agile Coach"
         dates = "05/2017 – 11/2017"
         company = "[Talanx AG](https://www.talanx.com/)"
@@ -417,25 +414,25 @@ enableRobotsTXT = false
         language = "Deutsch"
         title = "Einführung von Scrum im Bereich Berufsunfähigkeit/Leistung"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Einführung von Scrum als Vorgehensmodell bei der Produktentwicklung"
+        [[languages.de.params.projects.list.items]]
+            details = "Einführung von Scrum als Vorgehensmodell bei der Produktentwicklung"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching und Schulung von Management und Mitarbeitern (ca. 35 Mitarbeiter)"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching und Schulung von Management und Mitarbeitern (ca. 35 Mitarbeiter)"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Ausbildung und Coaching von 3 Scrum Mastern und 3 Product Ownern"
+        [[languages.de.params.projects.list.items]]
+            details = "Ausbildung und Coaching von 3 Scrum Mastern und 3 Product Ownern"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Schärfung der Produktvision zum MVP"
+        [[languages.de.params.projects.list.items]]
+            details = "Schärfung der Produktvision zum MVP"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Methodische Unterstützung beim Aufbau des Product Backlogs"
+        [[languages.de.params.projects.list.items]]
+            details = "Methodische Unterstützung beim Aufbau des Product Backlogs"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Methodische Unterstützung bei Integration von agilen Bereichen in Konzernstrukturen"
+        [[languages.de.params.projects.list.items]]
+            details = "Methodische Unterstützung bei Integration von agilen Bereichen in Konzernstrukturen"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Programmleitung / COO / Agile Coach"
         dates = "11/2016 – 07/2017"
         company = "[VHV Versicherungen](https://www.vhv.de/)"
@@ -447,22 +444,22 @@ enableRobotsTXT = false
         title = "Ausgründung einer Betreibergesellschaft für eine Makler-Verwaltungsplattform"
         details = "Ausgründung der digital broking GmbH, einem Joint Venture zwischen der VHV und der adesso AG, mit der Mission, „Das Check24 der Makler zu werden“ in der Rolle des COO. Meine Kernaufgabe war es, die Aufbau- und Ablauforganisation zu designen und zu implementieren."
 
-          [[languages.de.params.projects.list.items]]
-          details = "Unterstützung bei der Ausgründung eines Unternehmenszweigs in eine eigene GmbH"
+        [[languages.de.params.projects.list.items]]
+            details = "Unterstützung bei der Ausgründung eines Unternehmenszweigs in eine eigene GmbH"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Staffing von Entwicklung, Design & Betrieb"
+        [[languages.de.params.projects.list.items]]
+            details = "Staffing von Entwicklung, Design & Betrieb"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Einführung von Scrum als Vorgehensmodell"
+        [[languages.de.params.projects.list.items]]
+            details = "Einführung von Scrum als Vorgehensmodell"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Einführung von LeSS als Skalierungsmodell"
+        [[languages.de.params.projects.list.items]]
+            details = "Einführung von LeSS als Skalierungsmodell"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Scrum Master für 2 Scrum Teams"
+        [[languages.de.params.projects.list.items]]
+            details = "Scrum Master für 2 Scrum Teams"
 
-        [[languages.de.params.projects.list]]
+    [[languages.de.params.projects.list]]
         role = "Unternehmensberater / Projektleiter / Agile Coach"
         dates = "11/2015 – 01/2017"
         company = "[ING-DiBa AG](https://www.ing.de/)"
@@ -472,318 +469,318 @@ enableRobotsTXT = false
         methods = "Scrum, Kanban, adaptiertes Spotify Modell, Environment Mapping"
         title = "Unterstützung bei Transformation einer Bank in eine kundenzentrierte Produktorganisation"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Implementierung von Customer Journeys als zentrales Werkzeug in der Produktentwicklung"
+        [[languages.de.params.projects.list.items]]
+            details = "Implementierung von Customer Journeys als zentrales Werkzeug in der Produktentwicklung"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Ausbau und Anpassung bestehender Prozesse"
+        [[languages.de.params.projects.list.items]]
+            details = "Ausbau und Anpassung bestehender Prozesse"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Transformation der monolithischen Softwarelandschaft in dezentrale Produktstreams"
+        [[languages.de.params.projects.list.items]]
+            details = "Transformation der monolithischen Softwarelandschaft in dezentrale Produktstreams"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Optimierung der eingesetzten Software-Tools"
+        [[languages.de.params.projects.list.items]]
+            details = "Optimierung der eingesetzten Software-Tools"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Einführung von DevOps"
+        [[languages.de.params.projects.list.items]]
+            details = "Einführung von DevOps"
 
-          [[languages.de.params.projects.list.items]]
-          details = "Coaching von Unternehmensführung & mittleren Management"
+        [[languages.de.params.projects.list.items]]
+            details = "Coaching von Unternehmensführung & mittleren Management"
 
-  [languages.en]
-  title = "About me"
-  description = "Entrepreneur out of passion, Servant leader out of conviction, Agile Coach, Software Architect & Mediator."
+[languages.en]
+    title = "About me"
+    description = "Entrepreneur out of passion, Servant leader out of conviction, Agile Coach, Software Architect & Mediator."
 
     [languages.en.params]
 
-      [languages.en.params.contact]
-      enable = true
-      location = "Cologne"
+        [languages.en.params.contact]
+            enable = true
+            location = "Cologne"
 
-        [[languages.en.params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:+491736056707"
-        text = "+49 (0)173 6056 707"
+            [[languages.en.params.contact.list]]
+                icon = "fas fa-phone-square"
+                url = "tel:+491736056707"
+                text = "+49 (0)173 6056 707"
 
-        [[languages.en.params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:matthaeus@lernende-organisation.org"
-        text = "matthaeus@lernende-organisation.org"
+            [[languages.en.params.contact.list]]
+                icon = "fas fa-envelope-square"
+                url = "mailto:matthaeus@lernende-organisation.org"
+                text = "matthaeus@lernende-organisation.org"
 
-        [[languages.en.params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://www.lernende-organisation.org"
-        text = "www.lernende-organisation.org"
+            [[languages.en.params.contact.list]]
+                icon = "fas fa-globe"
+                url = "https://www.lernende-organisation.org"
+                text = "www.lernende-organisation.org"
 
-      [languages.en.params.profile]
-      enable = true
-      name = "Matthäus Szturc"
-      tagline = "Entrepreneur, Servant leader, Agile Coach, Software Architect & Mediator"
-      avatar = "matt.jpg"
+[languages.en.params.profile]
+    enable = true
+    name = "Matthäus Szturc"
+    tagline = "Entrepreneur, Servant leader, Agile Coach, Software Architect & Mediator"
+    avatar = "matt.jpg"
 
-      [languages.en.params.summary]
-      enable = true
-      text = "Matthäus has more than ten years of experience in the implementation of agile cultures and agile structures across various industries and and all management levels. Since February 2018 Matthäus is Managing Partner at Agile Process GmbH and part of our Agile Process Team. Matthäus was working in various roles and with different responsibilities at agile transformation projects e. g. as agile coach. He has especially longterm experience in the implementaion of agile structures in the insurance and banking industry."
+[languages.en.params.summary]
+    enable = true
+    text = "Matthäus has more than ten years of experience in the implementation of agile cultures and agile structures across various industries and and all management levels. Since February 2018 Matthäus is Managing Partner at Agile Process GmbH and part of our Agile Process Team. Matthäus was working in various roles and with different responsibilities at agile transformation projects e. g. as agile coach. He has especially longterm experience in the implementaion of agile structures in the insurance and banking industry."
 
-      [languages.en.params.education]
-      enable = true
+[languages.en.params.education]
+    enable = true
 
-        [[languages.en.params.education.list]]
+    [[languages.en.params.education.list]]
         degree = "M. Sc. in Psychology"
         university = "FernUniversität Hagen"
         dates = "2016 - 2018"
 
-        [[languages.en.params.education.list]]
+    [[languages.en.params.education.list]]
         degree = "B. Sc. in Psychology"
         university = "FernUniversität Hagen"
         dates = "2012 - 2016"
 
-        [[languages.en.params.education.list]]
+    [[languages.en.params.education.list]]
         degree = "Dipl.-Ing. (FH) Computer Science"
         university = "TH Bingen"
         dates = "2006 - 2009"
 
-      [languages.en.params.languages]
-      enable = true
+[languages.en.params.languages]
+    enable = true
 
-        [[languages.en.params.languages.list]]
+    [[languages.en.params.languages.list]]
         name = "German"
         level = "native"
 
-        [[languages.en.params.languages.list]]
+    [[languages.en.params.languages.list]]
         name = "English"
         level = "fluent"
 
 [params]
-author = "Matthäus Szturc"
-primaryColor = "#54B689"
-textPrimaryColor = "#292929"
+    author = "Matthäus Szturc"
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
 
-  [params.skills]
-  enable = false
+    [params.skills]
+        enable = false
 
-    [[params.skills.list]]
-    title = "Technical"
+        [[params.skills.list]]
+            title = "Technical"
 
-      [[params.skills.list.items]]
-      details = "JavaScript/Angular/React/Vue"
+            [[params.skills.list.items]]
+                details = "JavaScript/Angular/React/Vue"
 
-      [[params.skills.list.items]]
-      details = "Python/Ruby/PHP"
+            [[params.skills.list.items]]
+                details = "Python/Ruby/PHP"
 
-      [[params.skills.list.items]]
-      details = "Node.js/ASP.NET"
+            [[params.skills.list.items]]
+                details = "Node.js/ASP.NET"
 
-      [[params.skills.list.items]]
-      details = "PostgreSQL/MySQL"
+            [[params.skills.list.items]]
+                details = "PostgreSQL/MySQL"
 
-      [[params.skills.list.items]]
-      details = "Object-oriented design"
+            [[params.skills.list.items]]
+                details = "Object-oriented design"
 
-      [[params.skills.list.items]]
-      details = "Design and implement database structures"
+            [[params.skills.list.items]]
+                details = "Design and implement database structures"
 
-      [[params.skills.list.items]]
-      details = "Lead and deliver complex software systems"
+            [[params.skills.list.items]]
+                details = "Lead and deliver complex software systems"
 
-    [[params.skills.list]]
-    title = "Professional"
+        [[params.skills.list]]
+            title = "Professional"
 
-      [[params.skills.list.items]]
-      details = "Effective communication"
+            [[params.skills.list.items]]
+                details = "Effective communication"
 
-      [[params.skills.list.items]]
-      details = "Team player"
+            [[params.skills.list.items]]
+                details = "Team player"
 
-      [[params.skills.list.items]]
-      details = "Strong problem solver"
+            [[params.skills.list.items]]
+                details = "Strong problem solver"
 
-      [[params.skills.list.items]]
-      details = "Good time management"
+            [[params.skills.list.items]]
+                details = "Good time management"
 
-  [params.awards]
-  enable = false
-
-    [[params.awards.list]]
-    name = "Award Lorem Ipsum"
-    body = "Microsoft lorem ipsum"
-    date = "2019"
+[params.awards]
+    enable = false
 
     [[params.awards.list]]
-    name = "Award Donec Sodales"
-    body = "Oracle Aenean"
-    date = "2017"
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
 
-  [params.interests]
-  enable = false
+    [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
 
-    [[params.interests.list]]
-    name = "Climbing"
-
-    [[params.interests.list]]
-    name = "Snowboarding"
-
-    [[params.interests.list]]
-    name = "Photography"
+[params.interests]
+    enable = false
 
     [[params.interests.list]]
-    name = "Travelling"
+        name = "Climbing"
 
-  [params.badges]
-  enable = false
+    [[params.interests.list]]
+        name = "Snowboarding"
 
-  [params.certifications]
-  enable = true
+    [[params.interests.list]]
+        name = "Photography"
 
-    [[params.certifications.list]]
-    title = "SAFe® Program Consultant (SPC)"
-    dates = "2021"
-    orga = "Scaled Agile"
-    logo = "badge-Safe5-SPC.png"
+    [[params.interests.list]]
+        name = "Travelling"
 
-    [[params.certifications.list]]
-    title = "Train the Trainer für Mindful Leadership"
-    dates = "2020 - 2023"
-    orga = "Professional Campus"
+[params.badges]
+    enable = false
+
+[params.certifications]
+    enable = true
 
     [[params.certifications.list]]
-    title = "Kanban Management Professional II (KMP II)"
-    dates = "2019"
-    orga = "Lean Kanban University"
-    logo = "badge-kmp.png"
+        title = "SAFe® Program Consultant (SPC)"
+        dates = "2021"
+        orga = "Scaled Agile"
+        logo = "badge-Safe5-SPC.png"
 
     [[params.certifications.list]]
-    title = "Certified Agile Leadership I (CAL I)"
-    dates = "2019"
-    orga = "Scrum Alliance"
-    logo = "badge-cal1.png"
+        title = "Train the Trainer für Mindful Leadership"
+        dates = "2020 - 2023"
+        orga = "Professional Campus"
 
     [[params.certifications.list]]
-    title = "Kanban Management Professional I (KMP I)"
-    dates = "2018"
-    orga = "Lean Kanban University"
+        title = "Kanban Management Professional II (KMP II)"
+        dates = "2019"
+        orga = "Lean Kanban University"
+        logo = "badge-kmp.png"
 
     [[params.certifications.list]]
-    title = "Spiral Dynamics Level 2 Certification"
-    dates = "2018"
-    orga = "NVC"
-    logo = "badge-valuematch.png"
+        title = "Certified Agile Leadership I (CAL I)"
+        dates = "2019"
+        orga = "Scrum Alliance"
+        logo = "badge-cal1.png"
 
     [[params.certifications.list]]
-    title = "Professional Scrum Master level I (PSM I)"
-    dates = "2018"
-    orga = "Scrum.org"
-    logo = "badge-psm.png"
+        title = "Kanban Management Professional I (KMP I)"
+        dates = "2018"
+        orga = "Lean Kanban University"
 
     [[params.certifications.list]]
-    title = "Advanced Certified ScrumMaster® (A-CSM)"
-    dates = "2016"
-    orga = "Scrum Alliance"
+        title = "Spiral Dynamics Level 2 Certification"
+        dates = "2018"
+        orga = "NVC"
+        logo = "badge-valuematch.png"
 
     [[params.certifications.list]]
-    title = "Certified LeSS Practitioner"
-    dates = "2016"
-    orga = "The LeSS Company"
-    logo = "badge-less.png"
+        title = "Professional Scrum Master level I (PSM I)"
+        dates = "2018"
+        orga = "Scrum.org"
+        logo = "badge-psm.png"
 
     [[params.certifications.list]]
-    title = "Spiral Dynamics Level 1 Certification"
-    dates = "2016"
-    orga = "NVC"
+        title = "Advanced Certified ScrumMaster® (A-CSM)"
+        dates = "2016"
+        orga = "Scrum Alliance"
 
     [[params.certifications.list]]
-    title = "Certified ScrumMaster (CSM)"
-    dates = "2016"
-    orga = "Scrum Alliance"
-    logo = "badge-csm.png"
+        title = "Certified LeSS Practitioner"
+        dates = "2016"
+        orga = "The LeSS Company"
+        logo = "badge-less.png"
 
     [[params.certifications.list]]
-    title = "Certified Professional for Software Architecture (Advanced Level)"
-    dates = "2012 - 2014"
-    orga = "iSAQB"
-    logo = "badge-iSAQB.png"
+        title = "Spiral Dynamics Level 1 Certification"
+        dates = "2016"
+        orga = "NVC"
 
     [[params.certifications.list]]
-    title = "Professional Scrum Product Owner (PSPO)"
-    dates = "2014"
-    orga = "Scrum.org"
-    logo = "badge-pspo.png"
+        title = "Certified ScrumMaster (CSM)"
+        dates = "2016"
+        orga = "Scrum Alliance"
+        logo = "badge-csm.png"
 
     [[params.certifications.list]]
-    title = "PRINCE2® Foundation"
-    dates = "2011"
-    orga = "Haufe Akademie"
-    logo = "badge-Prince2.png"
+        title = "Certified Professional for Software Architecture (Advanced Level)"
+        dates = "2012 - 2014"
+        orga = "iSAQB"
+        logo = "badge-iSAQB.png"
 
     [[params.certifications.list]]
-    title = "Certified Professional for Software Architecture (Foundation Level)"
-    dates = "2011"
-    orga = "iSAQB"
+        title = "Professional Scrum Product Owner (PSPO)"
+        dates = "2014"
+        orga = "Scrum.org"
+        logo = "badge-pspo.png"
 
     [[params.certifications.list]]
-    title = "Oracle Certified Expert, Java EE 6 Web Component Developer"
-    dates = "2009"
-    orga = "Oracle"
+        title = "PRINCE2® Foundation"
+        dates = "2011"
+        orga = "Haufe Akademie"
+        logo = "badge-Prince2.png"
 
     [[params.certifications.list]]
-    title = "Oracle Certified Professional, Java SE 6 Programmer"
-    dates = "2008"
-    orga = "Oracle"
+        title = "Certified Professional for Software Architecture (Foundation Level)"
+        dates = "2011"
+        orga = "iSAQB"
 
-  [params.information]
-  enable = false
+    [[params.certifications.list]]
+        title = "Oracle Certified Expert, Java EE 6 Web Component Developer"
+        dates = "2009"
+        orga = "Oracle"
+
+    [[params.certifications.list]]
+        title = "Oracle Certified Professional, Java SE 6 Programmer"
+        dates = "2008"
+        orga = "Oracle"
+
+[params.information]
+    enable = false
 
     [[params.information.list]]
-    title = "Papers"
+        title = "Papers"
 
-      [[params.information.list.items]]
-      details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+            details = "2018 · Lorem Ipsum"
 
-      [[params.information.list.items]]
-      details = "2016 · Sed Fringilla"
+        [[params.information.list.items]]
+            details = "2016 · Sed Fringilla"
 
     [[params.information.list]]
-    title = "Interests"
-    details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
 
-  [params.highlights]
-  enable = false
+[params.highlights]
+    enable = false
 
     [[params.highlights.list]]
-    title = "Speaker @ SERIALIZATION MINDS"
-    tagline = "Europas größte Konferenz zum Thema Track & Trace"
-    meta = "2015"
+        title = "Speaker @ SERIALIZATION MINDS"
+        tagline = "Europas größte Konferenz zum Thema Track & Trace"
+        meta = "2015"
 
-  [params.recommendations]
-  enable = false
-
-    [[params.recommendations.list]]
-    title = "Papers"
-    author = "Tom"
-    tagline = "Matthäus konnte bei uns ein bleibenden Eindruck hinterlassen"
-
-      [[params.recommendations.list.items]]
-      details = "2018 · Lorem Ipsum"
-
-      [[params.recommendations.list.items]]
-      details = "2016 · Sed Fringilla"
+[params.recommendations]
+    enable = false
 
     [[params.recommendations.list]]
-    title = "Interests"
-    details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "Papers"
+        author = "Tom"
+        tagline = "Matthäus konnte bei uns ein bleibenden Eindruck hinterlassen"
 
-  [params.social]
-  enable = true
+        [[params.recommendations.list.items]]
+            details = "2018 · Lorem Ipsum"
+
+        [[params.recommendations.list.items]]
+            details = "2016 · Sed Fringilla"
+
+    [[params.recommendations.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+[params.social]
+    enable = true
 
     [[params.social.list]]
-    icon = "fab fa-github-square"
-    url = "//github.com/MSzturc"
-    title = "MSzturc"
+        icon = "fab fa-github-square"
+        url = "//github.com/MSzturc"
+        title = "MSzturc"
 
     [[params.social.list]]
-    icon = "fab fa-xing-square"
-    url = "//xing.com/profile/Matthaeus_Szturc"
-    title = "MSzturc"
+        icon = "fab fa-xing-square"
+        url = "//xing.com/profile/Matthaeus_Szturc"
+        title = "MSzturc"
 
-  [params.footer]
-  purchased_license = true
+[params.footer]
+    purchased_license = true
