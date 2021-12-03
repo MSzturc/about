@@ -1,0 +1,3 @@
+[submodule "themes/hugo-devresume-theme"]
+	path = themes/hugo-devresume-theme
+	url = git@github.com:MSzturc/hugo-devresume-theme.git
