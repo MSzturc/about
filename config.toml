@@ -20,8 +20,8 @@ enableRobotsTXT = false
 
                 [[languages.de.params.contact.list]]
                     icon = "fas fa-phone-square"
-                    url = "tel:+491736056707"
-                    text = "+49 (0)173 6056 707"
+                    url = "tel:+4915221767452"
+                    text = "+49 (0)152 2176 7452"
 
                 [[languages.de.params.contact.list]]
                     icon = "fas fa-envelope-square"
