@@ -41,7 +41,7 @@ enableRobotsTXT = false
 
 [languages.de.params.summary]
     enable = true
-    text = "Matthäus hat mehr als zehn Jahre Erfahrung in der Implementierung agiler Kulturen und Systeme in Unternehmen aller Größen und auf allen Unternehmensebenen. Des Weiteren bringt Matthäus 10 Jahre Erfahrung in objektorientierter Softwareentwicklung im Java, Mobile und JavaScript Umfeld mit. Seit Februar 2018 ist Matthäus geschäftsführender Gesellschafter der Agile Process und damit Teil des Teams der Agile Process. Zuletzt war Matthäus als Organisationsentwickler bei der AOK Systems im Einsatz und hat dort gemeinsam mit deren Geschäftsführung eine Strategie zur Implementierung von Agilität in und außerhalb der IT entwickelt."
+    text = "Matthäus hat mehr als zehn Jahre Erfahrung in der Implementierung agiler Kulturen und Systeme in Unternehmen aller Größen und auf allen Unternehmensebenen. Des Weiteren bringt Matthäus 10 Jahre Erfahrung in objektorientierter Softwareentwicklung im Java, Mobile und JavaScript Umfeld mit. Seit Februar 2018 ist Matthäus geschäftsführender Gesellschafter der Agile Process und damit Teil des Teams der Agile Process. Zuletzt war Matthäus als SAFe Program Consultant bei der Deutsche Bahn AG im Einsatz und hat dabei unterstützt, eine Large Solution aufzubauen."
 
 [languages.de.params.education]
     enable = true
@@ -77,7 +77,7 @@ enableRobotsTXT = false
 
     [[languages.de.params.experience.list]]
         title = "Gesellschafter / Geschäftsführer Agile Transformation"
-        dates = "02/2018 – 12/2021"
+        dates = "02/2018 – heute"
         company = "[Agile Process GmbH](https://www.agile-process.com)"
         branch = "Beratung und Consulting"
         details = "Geschäftsführer der Agile Process GmbH mit Fokus auf agiler Transformationsberatung nationalen und internationalen Großunternehmen in folgenden Rollen:"
@@ -256,6 +256,19 @@ enableRobotsTXT = false
 
 [languages.de.params.projects]
     enable = true
+
+
+    [[languages.de.params.projects.list]]
+        dates = "01/2022 – 12/2022"
+        title = "Coaching & Unterstützung der Large Solution bei der Transition von Essential SAFe zu Portfolio SAFe"
+        branch = "Verkehr/Logistik"
+        company = "[Deutsche Bahn AG](https://www.deutschebahn.com/)"
+        role = "SAFe Program Consultant / Agile Coach"
+        models = "Design Thinking, Systemisches Coaching, Engpasskonzentrierte Strategie"
+        methods = "SAFe, OKR, Flight Levels, Impulsvorträge"
+        tools = "Reviews, Retrospektiven, Big Room Planning, Strategie- und Portfolio Mapping, Porter Wertschöpfungskette"
+        details = "Im Rahmen der \"Digital Schiene Deutschland\" soll mit SAFe ein Konzern- und Tochterübergreifendes Betriebsmodell implementiert werden. Dabei war es unsere Aufgabe eine neu gegründete Large Solution aufzubauen, zu beraten und zu coachen. Während der Projektlaufzeit ist es uns gelungen, 6 Agile Release Trains in die Large Solution zu integrieren. Gemeinsam mit den ART Trios haben wir Entwicklungspläne erarbeitet für eine Transition von Komponenten ARTs in Feature ARTs. Mit den Business Ownern konnten wir für die Large Solution ein neun Epic Workflow verabschieden, der es der Solution ermöglicht aus der traditionellen Matrix-Planung auszubrechen und eine iterative Planung & Fortschrittsmessung zu implementieren."
+        language = "Deutsch"
 
     [[languages.de.params.projects.list]]
         dates = "01/2020 – 12/2021"
