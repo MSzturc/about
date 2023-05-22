@@ -257,6 +257,17 @@ enableRobotsTXT = false
 [languages.de.params.projects]
     enable = true
 
+    [[languages.de.params.projects.list]]
+        dates = "01/2023 – 05/2023"
+        title = "Unterstützung bei der Transition einer Linienorganisation in 4 agile Teams"
+        branch = "Versicherungen"
+        company = "[AXA Konzern AG](https://www.axa.de/)"
+        role = "Agile Coach"
+        models = "Design Thinking, Systemisches Coaching"
+        methods = "Scrum, OKR, Flight Levels, Impulsvorträge"
+        tools = "Reviews, Retrospektiven, Planings, Strategie- und Portfolio Mapping, 3 Horizonte Modell"
+        details = "Im Rahmen der agilen Transition des Konzerns sollte eine Linienorganisation in ein agiles Betriebsmodell überführt werden. Dabei war es meine Aufgabe die Mitarbeiter im agilen Methoden zu schulen und diese in der Praxis in den ersten Schritten zu begleiten. Des Weiteren konnte ich mit der Bereichsleitung Mitarbeiterziele auf Team OKR überführen sowie das Reporting Richtung Geschäftsleitung scopingfähig zu gestalten. "
+        language = "Deutsch"
 
     [[languages.de.params.projects.list]]
         dates = "01/2022 – 12/2022"
